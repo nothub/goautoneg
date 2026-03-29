@@ -91,6 +91,10 @@ func nextSplitElement(s, sep string) (item string, remaining string) {
 // Parse an Accept Header string returning a sorted list
 // of clauses
 func ParseAccept(header string) acceptSlice {
+	if strings.TrimSpace(header) == "" {
+		return acceptSlice{{Type: "*", SubType: "*", Q: 1.0}}
+	}
+
 	partsCount := 0
 	remaining := header
 	for len(remaining) > 0 {
