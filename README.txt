@@ -1,7 +1,6 @@
-PACKAGE
+This is a fork of github.com/munnerz/goautoneg! See NOTICE.md for details.
 
-package goautoneg
-import "bitbucket.org/ww/goautoneg"
+import "github.com/nothub/goautoneg"
 
 HTTP Content-Type Autonegotiation.
 

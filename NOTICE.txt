@@ -1,0 +1,3 @@
+This project is a fork of github.com/munnerz/goautoneg by James Munnelly.
+Modifications (c) 2026 Florian Hübner.
+Licensed under the BSD 3-Clause License.
